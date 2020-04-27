@@ -11,7 +11,7 @@ def loop_message_five_times(mssg)
   end
 end
 
-def loop_message_n_times(mssg num)
+def loop_message_n_times(mssg, num)
   count = 0
   while count < num do
     puts mssg
