@@ -27,6 +27,12 @@ def output_array(array)
   end
 end
 
-def return_string_array
-  
+def return_string_array(array)
+  count = 0
+  n_array = []
+  while count < array.length
+    n_array[count]
+    count += 1
+  end
+  return n_array
 end
