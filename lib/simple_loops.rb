@@ -2,15 +2,21 @@
 
 #The loop_message_five_times method has one parameter - a message string
 #Write this method so that the string parameter is output five times with puts.
-def loop_message_five_times(message)
+
+def loop_message_five_times(mssg)
   count = 0
   while count < 5 do
-    puts message
+    puts mssg
     count += 1
   end
 end
 
-def loop_message_n_times
+def loop_message_n_times(mssg num)
+  count = 0
+  while count < num do
+    puts mssg
+    count += 1
+  end
 end
 
 def output_array
