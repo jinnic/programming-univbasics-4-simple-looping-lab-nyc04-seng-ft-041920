@@ -26,3 +26,7 @@ def output_array(array)
     count += 1
   end
 end
+
+def return_string_array
+  
+end
