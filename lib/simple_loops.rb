@@ -19,5 +19,7 @@ def loop_message_n_times(mssg num)
   end
 end
 
-def output_array
+def output_array(array)
+  count = 0
+  while count < array.len
 end
